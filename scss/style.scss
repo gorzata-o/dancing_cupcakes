@@ -1,0 +1,114 @@
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic);
+@import '_daMuffin';
+* {
+	font-family: 'Playfair Display', serif;
+}
+body {
+	background-color: #FCAAAC;
+}
+h2 {
+	font-weight: bold;
+}
+.menu {
+	list-style-type: none;
+	float: right;
+	li {
+		display: inline-block;
+		img {
+			width: 40%;
+			height: auto;
+			border-radius: 50%;		
+		}
+	}
+		
+	
+	li:nth-of-type(2) img{
+		animation-delay:1s;
+	}
+
+	li:nth-of-type(3) img{
+		animation-delay:2s;
+	}
+
+	li:nth-of-type(4) img{
+		animation-delay:3s;
+	}
+
+}
+.capcakes {
+	display: none;
+}
+.zoomInLeft {
+	@media (min-width: 992px) { 
+		display: inline-block;
+	}
+}
+.fadeInDownBig {
+	@media (min-width: 768px) and (max-width: 991px) { 
+		display: inline-block; 
+	}
+}
+.bounceInRight {
+	@media (min-width: 320px) and (max-width: 767px) { 
+		display: inline-block; 
+	}
+}
+
+.well {
+	background-color: #FDF5E8;
+	border: #FDF5E8;
+	margin-top: 20px;
+	div {
+		float: right;
+	}
+}
+.muffiny1 {
+  width: 185px;
+  height: 167px;
+  background: url("../images/muffins1.png") no-repeat; 
+  display: inline-block;
+ }
+
+#muffiny2 {
+  width: 180px;
+  height: 167px;
+  background: url("../images/muffins2.png") no-repeat; 
+  display: inline-block;
+ }
+
+ #muffiny3 {
+  width: 180px;
+  height: 167px;
+  background: url("../images/muffins3.png") no-repeat; 
+  display: inline-block;
+ }
+
+@keyframes muffiny {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -713px 0; } }
+
+#muffiny1 {
+  animation: muffiny 1500ms steps(4) infinite; }
+
+#muffiny2 {
+  animation: muffiny 1700ms steps(4) infinite; }
+
+#muffiny3 {
+  animation: muffiny 2000ms steps(4) infinite; }
+
+.cat-muffin {
+	background-color: #FCAAAC;
+	border-radius: 50%;
+}
+.lightSpeedIn {
+	font-size: 2em;
+	font-weight: bold;
+}
+footer {
+	div {
+		font-size: 2em;
+	}
+}

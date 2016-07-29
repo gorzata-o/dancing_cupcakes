@@ -1,0 +1,295 @@
+.daMuffin {
+	width: vw;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.cherry {
+	width: 50px;
+	height: 50px;
+	background-color: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #a90329 0%, #8f0222 6%, #8f0222 58%, #6d0019 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #a90329 0%,#8f0222 6%,#8f0222 58%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #a90329 0%,#8f0222 6%,#8f0222 58%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 );
+	border: 2px solid black;
+	border-radius: 50%;
+	position: relative;
+	top: 130px;
+	left: 51%;
+	z-index: 4;
+}
+.face {
+	position: relative;
+	top: 170px;
+	left: 43%;
+	z-index: 3;
+
+	.leftCheeck {
+		width: 20px;
+		height: 10px;
+		background-color: #febbbb; 
+		background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+		border-radius: 50% 50% 5px 5px;
+		position: absolute;
+	}
+	.leftEye {
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		position: absolute;
+		top: -15px;
+		left: 22px;
+		.white {
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			border-color: white;
+			border-radius: 50%;
+			position: absolute;
+			left: 2px;
+		}
+		.littleWhite {
+			width: 4px;
+			height: 4px;
+			background-color: white;
+			border-color: white;
+			border-radius: 50%;
+			position: absolute;
+			top: 15px;
+			left: 15px;
+		}
+	}
+	.smile {
+		width: 30px;
+		height: 24px;
+		border-bottom: 4px solid black;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: 40px;
+	}
+	.rightEye {
+		width: 20px;
+		height: 20px;
+		background-color: black;
+		border-radius: 50%;
+		position: absolute;
+		top: -15px;
+		left: 67px;
+
+		.white {
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			border-color: white;
+			border-radius: 50%;
+			position: absolute;
+			left: 2px;
+		}
+		.littleWhite {
+			width: 4px;
+			height: 4px;
+			background-color: white;
+			border-color: white;
+			border-radius: 50%;
+			position: absolute;
+			top: 15px;
+			left: 15px;
+		}
+		
+	}
+	.rightCheeck {
+		width: 20px;
+		height: 10px;
+		background-color: #febbbb; 
+		background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+		border-radius: 50% 50% 5px 5px;
+		position: absolute;
+		left: 90px;
+	}
+}
+
+.topping {
+	position: relative;
+	top: 100px;
+	left: 40%;
+	z-index: 2;
+
+	.circle1 {
+		width: 80px;
+		height: 80px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-radius: 50%;
+		position: absolute;
+		top: 50px;
+		left: -30px;
+	}
+	.circle2 {
+		width: 90px;
+		height: 60px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-top: none;
+		border-left: none;
+		border-radius: 50%;
+		position: absolute;
+		top: 60px;
+		left: 20px;
+	}
+	.circle3 {
+		width: 60px;
+		height: 60px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-left: none;
+		border-top: none;
+		border-radius: 50%;
+		position: absolute;
+		top: 60px;
+		left: 80px;
+	}
+	.circle4 {
+		width: 60px;
+		height: 70px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-left: none;
+		border-radius: 50%;
+		position: absolute;
+		top: 40px;
+		left: 110px;
+	}
+	.circle5 {
+		width: 90px;
+		height: 90px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-bottom: none;
+		border-left: none;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: 100px;
+	}
+	.circle6 {
+		width: 110px;
+		height: 80px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-bottom: none;
+		border-right: none;
+		border-radius: 50%;
+		position: absolute;
+		top: -20px;
+		left: 30px;
+	}
+	.circle7 {
+		width: 80px;
+		height: 80px;
+		background-color: #fdd8c5;
+		border: 2px solid black;
+		border-bottom: none;
+		border-right: none;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: -20px;
+	}
+	.circle8 {
+		width: 80px;
+		height: 80px;
+		background-color: #fdd8c5;
+		border-radius: 50%;
+		position: absolute;
+		top: 30px;
+		left: 40px;
+	}
+}
+.cake {
+	position: relative;
+	top: 200px;
+	left: 40%;
+	z-index: 0;
+
+	
+	.stripeLeft {
+		width: 30px;
+		height: 70px;
+		border: 2px solid black;
+		border-right: none;
+		background-color: #ddaf63;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		transform: skewX(20deg);
+		position: absolute;
+		left: 0;
+	}
+
+	.cakeInner {
+		position: absolute;
+		left: 20px;
+
+		.stripe2 {
+			width: 25px;
+			height: 70px;
+			border: 2px solid black;
+			background-color: #E7C791;
+			padding: 0;
+			margin: 0;
+			display: inline-block;
+			transform: skewX(15deg);
+			position: absolute;
+			left: 10px;
+			z-index: 1;
+		}
+		.stripeMain {
+			width: 100px;
+			height: 70px;
+			border: 2px solid black;
+			border-left: #ddaf63;
+			border-right: #ddaf63;
+			background-color: #ddaf63;
+			padding: 0;
+			margin: 0;
+			margin-left: -3px;
+			display: inline-block;
+		}
+		.stripe4 {
+			width: 25px;
+			height: 70px;
+			border: 2px solid black;
+			background-color: #E7C791;
+			padding: 0;
+			margin: 0;
+			display: inline-block;
+			transform: skewX(-15deg);
+			position: absolute;
+			left: 70px;
+			top: 0;
+			z-index: 1;
+		}
+	}
+	.stripeRight {
+		width: 30px;
+		height: 70px;
+		border: 2px solid black;
+		border-left: none;
+		background-color: #ddaf63;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		transform: skewX(-20deg);
+		position: absolute;
+		left: 110px;
+	}
+}
